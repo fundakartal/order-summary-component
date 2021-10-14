@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [#](#)
-- Live Site URL: [#](#)
+- Solution URL: [https://www.frontendmentor.io/solutions/order-summary-card-component-using-scss-coTG38YTE](https://www.frontendmentor.io/solutions/order-summary-card-component-using-scss-coTG38YTE)
+- Live Site URL: [https://fundakartal.github.io/order-summary-component/](https://fundakartal.github.io/order-summary-component/)
 
 ## My process
 
