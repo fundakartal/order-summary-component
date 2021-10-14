@@ -30,13 +30,11 @@ body {
   color: #7280a7;
   font-family: "Red Hat Display", sans-serif;
   font-weight: 500;
-  background: top/contain no-repeat url(../images/pattern-background-mobile.svg), -webkit-gradient(linear, left top, left bottom, from(#e0e8ff), to(#e0e8ff));
-  background: top/contain no-repeat url(../images/pattern-background-mobile.svg), linear-gradient(#e0e8ff, #e0e8ff);
+  background: #e0e8ff top/contain no-repeat url(../images/pattern-background-mobile.svg);
 }
 @media (min-width: 768px) {
   body {
-    background-image: url(../images/pattern-background-desktop.svg), -webkit-gradient(linear, left top, left bottom, from(#e0e8ff), to(#e0e8ff));
-    background-image: url(../images/pattern-background-desktop.svg), linear-gradient(#e0e8ff, #e0e8ff);
+    background-image: url(../images/pattern-background-desktop.svg);
   }
 }
 

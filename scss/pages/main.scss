@@ -20,9 +20,9 @@ body {
   color: $color-Desaturated-blue;
   font-family: 'Red Hat Display', sans-serif;
   font-weight: 500;
-  background: top / contain no-repeat url(../images/pattern-background-mobile.svg), linear-gradient($color-Pale-blue, $color-Pale-blue);
+  background: $color-Pale-blue top / contain no-repeat url(../images/pattern-background-mobile.svg);
   @include mq('tablet') {
-    background-image: url(../images/pattern-background-desktop.svg), linear-gradient($color-Pale-blue, $color-Pale-blue);
+    background-image: url(../images/pattern-background-desktop.svg);
   }
 }
 
