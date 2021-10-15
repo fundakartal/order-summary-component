@@ -65,14 +65,8 @@ body {
   }
   &-text {
     width: 100%;
-    // padding-left: 2rem;
-    // padding-right: 2rem;
     font-size: 1.6rem;
     line-height: 1.6;
-    @include mq('tablet') {
-      // padding-left: 0;
-      // padding-right: 0;
-    }
   }
   &-price {
     display: flex;
