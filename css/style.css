@@ -39,7 +39,7 @@ body {
 }
 
 .Card {
-  width: 90%;
+  width: 95%;
   margin: 3rem;
   max-width: 37.5rem;
   border-radius: 2rem;
@@ -92,16 +92,8 @@ body {
 }
 .Card-text {
   width: 100%;
-  padding-left: 2rem;
-  padding-right: 2rem;
   font-size: 1.6rem;
   line-height: 1.6;
-}
-@media (min-width: 768px) {
-  .Card-text {
-    padding-left: 0;
-    padding-right: 0;
-  }
 }
 .Card-price {
   display: -webkit-box;
@@ -115,15 +107,25 @@ body {
   align-items: center;
   background-color: #f5f7ff;
   width: 100%;
-  padding: 1.8rem;
+  padding: 1.3rem;
   border-radius: 1rem;
+}
+@media (min-width: 768px) {
+  .Card-price {
+    padding: 1.8rem;
+  }
 }
 .Card-price-details {
   -webkit-box-flex: 1;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
   text-align: left;
-  margin-left: 2rem;
+  margin-left: 1rem;
+}
+@media (min-width: 768px) {
+  .Card-price-details {
+    margin-left: 2rem;
+  }
 }
 .Card-price-details-heading {
   color: #1f2f56;

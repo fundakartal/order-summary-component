@@ -28,7 +28,7 @@ body {
 }
 
 .Card {
-  width: 90%;
+  width: 95%;
   margin: 3rem;
   max-width: 37.5rem;
   border-radius: 2rem;
@@ -65,13 +65,13 @@ body {
   }
   &-text {
     width: 100%;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    // padding-left: 2rem;
+    // padding-right: 2rem;
     font-size: 1.6rem;
     line-height: 1.6;
     @include mq('tablet') {
-      padding-left: 0;
-      padding-right: 0;
+      // padding-left: 0;
+      // padding-right: 0;
     }
   }
   &-price {
@@ -80,12 +80,18 @@ body {
     align-items: center;
     background-color: $color-Very-pale-blue;
     width: 100%;
-    padding: 1.8rem;
+    padding: 1.3rem;
     border-radius: 1rem;
+    @include mq('tablet') {
+      padding: 1.8rem;
+    }
     &-details {
       flex: 1 0 auto;
       text-align: left;
-      margin-left: 2rem;
+      margin-left: 1rem;
+      @include mq('tablet') {
+        margin-left: 2rem;
+      }
       &-heading {
         color: $color-Dark-blue;
         font-weight: 900;
