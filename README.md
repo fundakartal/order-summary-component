@@ -1,4 +1,4 @@
-# Frontend Mentor - Stats Preview Card Component Solution
+# Frontend Mentor - Order Summary Card Component Solution
 
 This is a solution to the [Order Summary Card Component Challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj).
 
